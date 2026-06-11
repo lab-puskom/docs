@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklab_docs=self.webpackChunklab_docs||[]).push([["3220"],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/laboratorium/blog","blogTitle":"Blog","authorsListPath":"/laboratorium/blog/authors"}')}}]);
