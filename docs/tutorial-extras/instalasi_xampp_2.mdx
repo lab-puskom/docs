@@ -1,0 +1,49 @@
+---
+sidebar_position: 2
+---
+
+# Instalasi XAMPP
+
+XAMPP adalah perangkat lunak bundel kompilasi yang mencakup **Apache** (*web server*), **MySQL/MariaDB** (*database*), dan **PHP**. Aplikasi ini merupakan *environment* standar yang wajib digunakan untuk praktikum pengembangan *web backend* dan manajemen basis data relasional dasar di laboratorium.
+
+Berikut adalah langkah-langkah instalasi dan konfigurasi dasar XAMPP.
+
+## Tahap 1: Unduh dan Instalasi
+
+1. Buka situs resmi Apache Friends di **[apachefriends.org](https://www.apachefriends.org/)**.
+2. Klik tombol **XAMPP for Windows** untuk mengunduh versi terbaru (pastikan versi PHP yang diunduh sesuai dengan silabus praktikum saat ini).
+3. Jalankan *file installer* yang telah diunduh.
+   > **Catatan:** Jika muncul peringatan *User Account Control* (UAC) terkait perizinan instalasi di folder `C:\Program Files`, klik **OK** saja untuk melanjutkannya. XAMPP akan diinstal di luar folder tersebut.
+4. Pada jendela *Welcome to the XAMPP Setup Wizard*, klik **Next**.
+5. Pada bagian **Select Components**, pastikan minimal komponen berikut dicentang:
+   - **Server:** Apache, MySQL
+   - **Program Languages:** PHP, phpMyAdmin
+   - *(Komponen lain seperti FileZilla, Mercury, dan Tomcat bisa diabaikan jika tidak ada di modul praktikum).*
+6. Klik **Next**. Pada bagian **Installation folder**, biarkan pada lokasi *default*, yaitu `C:\xampp`.
+7. Lanjutkan dengan menekan **Next** hingga proses instalasi berjalan. Tunggu hingga selesai, lalu klik **Finish** (pastikan opsi "Do you want to start the Control Panel now?" dicentang).
+
+## Tahap 2: Menjalankan dan Menguji XAMPP
+
+Setelah instalasi selesai, Anda perlu memastikan layanannya berjalan dengan baik.
+
+1. Buka aplikasi **XAMPP Control Panel**.
+2. Pada baris **Apache**, klik tombol **Start**. Lakukan hal yang sama pada baris **MySQL**.
+3. Jika berhasil, tulisan "Apache" dan "MySQL" akan diblok dengan warna **hijau**. Angka *port* juga akan muncul (biasanya Apache di *port* 80/443 dan MySQL di *port* 3306).
+4. Untuk menguji apakah server lokal sudah aktif:
+   - Buka *browser* (Google Chrome/Firefox).
+   - Ketikkan `http://localhost` pada *address bar* dan tekan Enter. Jika halaman *dashboard* XAMPP muncul, artinya instalasi berhasil.
+   - Ketikkan `http://localhost/phpmyadmin` untuk memastikan antarmuka manajemen *database* bisa diakses.
+
+## Tahap 3: Troubleshooting Umum
+
+Sering kali terjadi kendala di mana Apache atau MySQL tidak mau menyala (ditandai dengan warna merah atau *error log* di Control Panel). Berikut solusinya:
+
+* **Apache Error (Port 80 In Use):** Ini biasanya terjadi jika aplikasi lain (seperti Skype, VMware, atau layanan Windows IIS) sedang menggunakan *port* 80. 
+  - **Solusi:** Klik tombol **Config** di baris Apache, pilih `httpd.conf`. Cari baris `Listen 80` dan ubah menjadi `Listen 8080`. Simpan *file*, lalu klik *Start* kembali. (Saat mengakses di *browser*, gunakan alamat `http://localhost:8080`).
+* **MySQL Error:** Biasanya terjadi karena ada instalasi *database* MySQL sebelumnya yang bentrok. Pastikan *service* MySQL lama dihentikan melalui `services.msc` pada Windows.
+
+---
+
+> **Aturan Pengerjaan Tugas Praktikum:**
+> Seluruh *file* proyek web (PHP/HTML) harus disimpan di dalam folder `C:\xampp\htdocs`. Buatlah folder khusus di dalam `htdocs` dengan format **nama_nobp_kelas** sesuai SOP. 
+> Setelah selesai praktikum, **jangan lupa** mengarsipkan folder tersebut menjadi `.rar` dan memindahkannya ke partisi Mahasiswa untuk di-*upload* ke *server* lab.
