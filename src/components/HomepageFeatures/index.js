@@ -2,10 +2,14 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+// Import komponen Font Awesome dan ikon spesifik yang dibutuhkan
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClipboardCheck, faNetworkWired, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+
 const FeatureList = [
   {
     title: 'SOP & Tata Tertib',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Icon: faClipboardCheck, // Mengganti properti Svg menjadi Icon
     description: (
       <>
         Panduan terpusat mengenai tata tertib, administrasi peminjaman inventaris, 
@@ -15,7 +19,7 @@ const FeatureList = [
   },
   {
     title: 'Infrastruktur & Troubleshooting',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Icon: faNetworkWired,
     description: (
       <>
         Dokumentasi pemeliharaan perangkat keras (hardware), topologi jaringan, 
@@ -25,7 +29,7 @@ const FeatureList = [
   },
   {
     title: 'Software & Modul Praktikum',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Icon: faLaptopCode,
     description: (
       <>
         Langkah-langkah instalasi standar <i>environment</i> praktikum, manajemen 
@@ -35,11 +39,17 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Icon, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/* Render FontAwesomeIcon menggantikan tag <Svg> */}
+        <FontAwesomeIcon 
+          icon={Icon} 
+          size="4x" 
+          
+          style={{ color: 'var(--ifm-color-primary)', marginBottom: '1.5rem', marginTop: '1rem' }} 
+        />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

@@ -4,9 +4,9 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Pusat Informasi Lab",
+  "title": "Pusat Informasi Laboratorium Komputer",
   "tagline": "Standar operasional prosedur dan dokumentasi pemeliharaan fasilitas.",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/settings.png",
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
@@ -34,7 +34,7 @@ export default {
   "organizationName": "lab-puskom",
   "projectName": "docs",
   "trailingSlash": false,
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -79,10 +79,10 @@ export default {
       "disableSwitch": false
     },
     "navbar": {
-      "title": "Labs",
+      "title": "Docs",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/settings.png"
       },
       "items": [
         {
@@ -97,7 +97,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/lab-puskom/docs",
           "label": "GitHub",
           "position": "right"
         }
@@ -112,7 +112,7 @@ export default {
           "items": [
             {
               "label": "Tutorial",
-              "to": "/docs/intro"
+              "to": "docs/intro"
             }
           ]
         },
@@ -142,12 +142,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/lab-puskom/docs"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2026 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2026 UPT Pusat Laboratorium Komputer."
     },
     "prism": {
       "theme": {
