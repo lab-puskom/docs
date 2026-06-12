@@ -1,5 +1,5 @@
 {
-  "/laboratorium/blog-6a4": {
+  "/docs/blog-eb0": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -19,16 +19,16 @@
         "content": "1f4725da"
       }
     ],
-    "__props": "c66f2954"
+    "__props": "7da13d82"
   },
-  "/laboratorium/blog/archive-4f9": {
+  "/docs/blog/archive-5ff": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "36994c47"
     },
-    "__props": "d6117a33"
+    "__props": "5be1457f"
   },
-  "/laboratorium/blog/authors-c3e": {
+  "/docs/blog/authors-164": {
     "__comp": "621db11d",
     "__context": {
       "data": {
@@ -37,9 +37,9 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "178809e8"
+    "__props": "4795aa0f"
   },
-  "/laboratorium/blog/authors/all-sebastien-lorber-articles-650": {
+  "/docs/blog/authors/all-sebastien-lorber-articles-049": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -59,9 +59,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "bb2cfb74"
+    "__props": "6a560b54"
   },
-  "/laboratorium/blog/authors/yangshun-88f": {
+  "/docs/blog/authors/yangshun-fff": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -81,9 +81,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "b0caf023"
+    "__props": "a3e759d5"
   },
-  "/laboratorium/blog/first-blog-post-7ba": {
+  "/docs/blog/first-blog-post-f6e": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -94,7 +94,7 @@
     "sidebar": "814f3328",
     "content": "fefdd57e"
   },
-  "/laboratorium/blog/long-blog-post-d48": {
+  "/docs/blog/long-blog-post-221": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -105,7 +105,7 @@
     "sidebar": "814f3328",
     "content": "d669559b"
   },
-  "/laboratorium/blog/mdx-blog-post-4a7": {
+  "/docs/blog/mdx-blog-post-369": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -116,15 +116,15 @@
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/laboratorium/blog/tags-9e2": {
+  "/docs/blog/tags-a37": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "1fed4193"
+    "__props": "a2b2b438"
   },
-  "/laboratorium/blog/tags/docusaurus-157": {
+  "/docs/blog/tags/docusaurus-fab": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -144,9 +144,9 @@
         "content": "1f4725da"
       }
     ],
-    "__props": "c591f8bd"
+    "__props": "276c1c32"
   },
-  "/laboratorium/blog/tags/facebook-4b3": {
+  "/docs/blog/tags/facebook-a63": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -157,9 +157,9 @@
         "content": "804b58ce"
       }
     ],
-    "__props": "ca75d03a"
+    "__props": "9a5dfca2"
   },
-  "/laboratorium/blog/tags/hello-176": {
+  "/docs/blog/tags/hello-685": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -173,9 +173,9 @@
         "content": "15df8608"
       }
     ],
-    "__props": "36a31512"
+    "__props": "606c302d"
   },
-  "/laboratorium/blog/tags/hola-71a": {
+  "/docs/blog/tags/hola-7ae": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -186,9 +186,9 @@
         "content": "1f4725da"
       }
     ],
-    "__props": "7e09c40f"
+    "__props": "b08fc048"
   },
-  "/laboratorium/blog/welcome-011": {
+  "/docs/blog/welcome-825": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -199,55 +199,55 @@
     "sidebar": "814f3328",
     "content": "7180d3e2"
   },
-  "/laboratorium/markdown-page-9bd": {
+  "/docs/markdown-page-1e2": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "4c678320"
   },
-  "/laboratorium/docs-19b": {
+  "/docs/docs-235": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/laboratorium/docs-1ec": {
+  "/docs/docs-641": {
     "__comp": "a7bd4aaa",
-    "__props": "8aeb4d6c"
+    "__props": "a2065270"
   },
-  "/laboratorium/docs-301": {
+  "/docs/docs-ba1": {
     "__comp": "a94703ab"
   },
-  "/laboratorium/docs/category/standar-operasional-labor-120": {
+  "/docs/docs/category/standar-operasional-labor-9af": {
     "__comp": "14eb3368",
-    "__props": "33fc3e1f"
+    "__props": "a4ec3770"
   },
-  "/laboratorium/docs/category/tutorial-instalasi-software-bd1": {
+  "/docs/docs/category/tutorial-instalasi-software-ec1": {
     "__comp": "14eb3368",
-    "__props": "0011ab7c"
+    "__props": "33e95441"
   },
-  "/laboratorium/docs/intro-606": {
+  "/docs/docs/intro-b7f": {
     "__comp": "17896441",
     "content": "f8409a7e"
   },
-  "/laboratorium/docs/SOP/aturan_labor_1-c99": {
+  "/docs/docs/SOP/aturan_labor_1-bc8": {
     "__comp": "17896441",
     "content": "2ef4388c"
   },
-  "/laboratorium/docs/SOP/cara_upload_2-e41": {
+  "/docs/docs/SOP/cara_upload_2-d84": {
     "__comp": "17896441",
     "content": "10f7da26"
   },
-  "/laboratorium/docs/tutorial-extras/instalasi_vscode_1-f74": {
+  "/docs/docs/tutorial-instalasi/instalasi_vscode_1-2ef": {
     "__comp": "17896441",
-    "content": "9b950ef7"
+    "content": "b3e3a6f5"
   },
-  "/laboratorium/docs/tutorial-extras/instalasi_xampp_2-0e1": {
+  "/docs/docs/tutorial-instalasi/instalasi_xampp_2-ed2": {
     "__comp": "17896441",
-    "content": "92adfd74"
+    "content": "a47a5646"
   },
-  "/laboratorium/-0c4": {
+  "/docs/-6fa": {
     "__comp": "c4f5d8e4",
     "__context": {
       "plugin": "a7456010"

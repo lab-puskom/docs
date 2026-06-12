@@ -29,10 +29,10 @@ export default {
       "gitEagerVcs": true
     }
   },
-  "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/laboratorium/",
-  "organizationName": "mayendradwika",
-  "projectName": "laboratorium",
+  "url": "https://lab-puskom.github.io",
+  "baseUrl": "/docs/",
+  "organizationName": "lab-puskom",
+  "projectName": "docs",
   "trailingSlash": false,
   "onBrokenLinks": "throw",
   "i18n": {

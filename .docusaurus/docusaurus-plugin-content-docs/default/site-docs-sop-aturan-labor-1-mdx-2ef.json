@@ -5,7 +5,7 @@
   "source": "@site/docs/SOP/aturan_labor_1.mdx",
   "sourceDirName": "SOP",
   "slug": "/SOP/aturan_labor_1",
-  "permalink": "/laboratorium/docs/SOP/aturan_labor_1",
+  "permalink": "/docs/docs/SOP/aturan_labor_1",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/SOP/aturan_labor_1.mdx",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Standar Operasional Labor",
-    "permalink": "/laboratorium/docs/category/standar-operasional-labor"
+    "permalink": "/docs/docs/category/standar-operasional-labor"
   },
   "next": {
     "title": "Prosedur Penyimpanan & Upload Tugas",
-    "permalink": "/laboratorium/docs/SOP/cara_upload_2"
+    "permalink": "/docs/docs/SOP/cara_upload_2"
   }
 }

@@ -13,8 +13,8 @@
       "calendar": "gregory",
       "path": "en",
       "translate": false,
-      "url": "https://your-docusaurus-site.example.com",
-      "baseUrl": "/laboratorium/"
+      "url": "https://lab-puskom.github.io",
+      "baseUrl": "/docs/"
     }
   }
 }

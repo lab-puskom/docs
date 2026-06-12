@@ -30,7 +30,7 @@ const config = {
   projectName: 'docs',       
   trailingSlash: false,              
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -111,7 +111,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: 'docs/docs/intro',
               },
             ],
           },

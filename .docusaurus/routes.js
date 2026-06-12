@@ -3,131 +3,131 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/laboratorium/blog',
-    component: ComponentCreator('/laboratorium/blog', '6a4'),
+    path: '/docs/blog',
+    component: ComponentCreator('/docs/blog', 'eb0'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/archive',
-    component: ComponentCreator('/laboratorium/blog/archive', '4f9'),
+    path: '/docs/blog/archive',
+    component: ComponentCreator('/docs/blog/archive', '5ff'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/authors',
-    component: ComponentCreator('/laboratorium/blog/authors', 'c3e'),
+    path: '/docs/blog/authors',
+    component: ComponentCreator('/docs/blog/authors', '164'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/laboratorium/blog/authors/all-sebastien-lorber-articles', '650'),
+    path: '/docs/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/docs/blog/authors/all-sebastien-lorber-articles', '049'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/authors/yangshun',
-    component: ComponentCreator('/laboratorium/blog/authors/yangshun', '88f'),
+    path: '/docs/blog/authors/yangshun',
+    component: ComponentCreator('/docs/blog/authors/yangshun', 'fff'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/first-blog-post',
-    component: ComponentCreator('/laboratorium/blog/first-blog-post', '7ba'),
+    path: '/docs/blog/first-blog-post',
+    component: ComponentCreator('/docs/blog/first-blog-post', 'f6e'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/long-blog-post',
-    component: ComponentCreator('/laboratorium/blog/long-blog-post', 'd48'),
+    path: '/docs/blog/long-blog-post',
+    component: ComponentCreator('/docs/blog/long-blog-post', '221'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/mdx-blog-post',
-    component: ComponentCreator('/laboratorium/blog/mdx-blog-post', '4a7'),
+    path: '/docs/blog/mdx-blog-post',
+    component: ComponentCreator('/docs/blog/mdx-blog-post', '369'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/tags',
-    component: ComponentCreator('/laboratorium/blog/tags', '9e2'),
+    path: '/docs/blog/tags',
+    component: ComponentCreator('/docs/blog/tags', 'a37'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/tags/docusaurus',
-    component: ComponentCreator('/laboratorium/blog/tags/docusaurus', '157'),
+    path: '/docs/blog/tags/docusaurus',
+    component: ComponentCreator('/docs/blog/tags/docusaurus', 'fab'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/tags/facebook',
-    component: ComponentCreator('/laboratorium/blog/tags/facebook', '4b3'),
+    path: '/docs/blog/tags/facebook',
+    component: ComponentCreator('/docs/blog/tags/facebook', 'a63'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/tags/hello',
-    component: ComponentCreator('/laboratorium/blog/tags/hello', '176'),
+    path: '/docs/blog/tags/hello',
+    component: ComponentCreator('/docs/blog/tags/hello', '685'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/tags/hola',
-    component: ComponentCreator('/laboratorium/blog/tags/hola', '71a'),
+    path: '/docs/blog/tags/hola',
+    component: ComponentCreator('/docs/blog/tags/hola', '7ae'),
     exact: true
   },
   {
-    path: '/laboratorium/blog/welcome',
-    component: ComponentCreator('/laboratorium/blog/welcome', '011'),
+    path: '/docs/blog/welcome',
+    component: ComponentCreator('/docs/blog/welcome', '825'),
     exact: true
   },
   {
-    path: '/laboratorium/markdown-page',
-    component: ComponentCreator('/laboratorium/markdown-page', '9bd'),
+    path: '/docs/markdown-page',
+    component: ComponentCreator('/docs/markdown-page', '1e2'),
     exact: true
   },
   {
-    path: '/laboratorium/docs',
-    component: ComponentCreator('/laboratorium/docs', '19b'),
+    path: '/docs/docs',
+    component: ComponentCreator('/docs/docs', '235'),
     routes: [
       {
-        path: '/laboratorium/docs',
-        component: ComponentCreator('/laboratorium/docs', '1ec'),
+        path: '/docs/docs',
+        component: ComponentCreator('/docs/docs', '641'),
         routes: [
           {
-            path: '/laboratorium/docs',
-            component: ComponentCreator('/laboratorium/docs', '301'),
+            path: '/docs/docs',
+            component: ComponentCreator('/docs/docs', 'ba1'),
             routes: [
               {
-                path: '/laboratorium/docs/category/standar-operasional-labor',
-                component: ComponentCreator('/laboratorium/docs/category/standar-operasional-labor', '120'),
+                path: '/docs/docs/category/standar-operasional-labor',
+                component: ComponentCreator('/docs/docs/category/standar-operasional-labor', '9af'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/laboratorium/docs/category/tutorial-instalasi-software',
-                component: ComponentCreator('/laboratorium/docs/category/tutorial-instalasi-software', 'bd1'),
+                path: '/docs/docs/category/tutorial-instalasi-software',
+                component: ComponentCreator('/docs/docs/category/tutorial-instalasi-software', 'ec1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/laboratorium/docs/intro',
-                component: ComponentCreator('/laboratorium/docs/intro', '606'),
+                path: '/docs/docs/intro',
+                component: ComponentCreator('/docs/docs/intro', 'b7f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/laboratorium/docs/SOP/aturan_labor_1',
-                component: ComponentCreator('/laboratorium/docs/SOP/aturan_labor_1', 'c99'),
+                path: '/docs/docs/SOP/aturan_labor_1',
+                component: ComponentCreator('/docs/docs/SOP/aturan_labor_1', 'bc8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/laboratorium/docs/SOP/cara_upload_2',
-                component: ComponentCreator('/laboratorium/docs/SOP/cara_upload_2', 'e41'),
+                path: '/docs/docs/SOP/cara_upload_2',
+                component: ComponentCreator('/docs/docs/SOP/cara_upload_2', 'd84'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/laboratorium/docs/tutorial-extras/instalasi_vscode_1',
-                component: ComponentCreator('/laboratorium/docs/tutorial-extras/instalasi_vscode_1', 'f74'),
+                path: '/docs/docs/tutorial-instalasi/instalasi_vscode_1',
+                component: ComponentCreator('/docs/docs/tutorial-instalasi/instalasi_vscode_1', '2ef'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/laboratorium/docs/tutorial-extras/instalasi_xampp_2',
-                component: ComponentCreator('/laboratorium/docs/tutorial-extras/instalasi_xampp_2', '0e1'),
+                path: '/docs/docs/tutorial-instalasi/instalasi_xampp_2',
+                component: ComponentCreator('/docs/docs/tutorial-instalasi/instalasi_xampp_2', 'ed2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -138,8 +138,8 @@ export default [
     ]
   },
   {
-    path: '/laboratorium/',
-    component: ComponentCreator('/laboratorium/', '0c4'),
+    path: '/docs/',
+    component: ComponentCreator('/docs/', '6fa'),
     exact: true
   },
   {
