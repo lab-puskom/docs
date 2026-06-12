@@ -1,0 +1,63 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/laboratorium/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/laboratorium/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/laboratorium/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "SOP/aturan_labor_1",
+              "path": "/laboratorium/docs/SOP/aturan_labor_1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "SOP/cara_upload_2",
+              "path": "/laboratorium/docs/SOP/cara_upload_2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/instalasi_vscode_1",
+              "path": "/laboratorium/docs/tutorial-extras/instalasi_vscode_1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/instalasi_xampp_2",
+              "path": "/laboratorium/docs/tutorial-extras/instalasi_xampp_2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/standar-operasional-labor",
+              "path": "/laboratorium/docs/category/standar-operasional-labor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial-instalasi-software",
+              "path": "/laboratorium/docs/category/tutorial-instalasi-software",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/laboratorium/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

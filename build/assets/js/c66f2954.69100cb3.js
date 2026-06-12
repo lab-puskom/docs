@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklab_docs=self.webpackChunklab_docs||[]).push([["5893"],{8005(a){a.exports=JSON.parse('{"metadata":{"permalink":"/laboratorium/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
