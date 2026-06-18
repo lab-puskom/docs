@@ -35,3 +35,16 @@
 [data-theme='dark'] .navbar__logo img {
   filter: invert(1) brightness(2);
 }
+
+/* Memposisikan Search Bar agar presisi di tengah pada tampilan Desktop */
+@media (min-width: 997px) {
+  .navbar__inner {
+    position: relative;
+  }
+  
+  .navbar__search {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

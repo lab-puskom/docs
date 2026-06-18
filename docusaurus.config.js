@@ -74,6 +74,22 @@ const config = {
     ],
   ],
 
+  // ==== PENAMBAHAN KONFIGURASI LOCAL SEARCH DIMULAI DI SINI ====
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ["en"],
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+      }),
+    ],
+  ],
+  // ==== PENAMBAHAN SELESAI ====
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

@@ -71,6 +71,20 @@ export default {
       }
     ]
   ],
+  "themes": [
+    [
+      "/home/mayen/Dev/lab-docs/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
+      {
+        "hashed": true,
+        "language": [
+          "en"
+        ],
+        "indexDocs": true,
+        "indexBlog": true,
+        "indexPages": true
+      }
+    ]
+  ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "colorMode": {
@@ -383,7 +397,6 @@ export default {
   ],
   "customFields": {},
   "plugins": [],
-  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],
