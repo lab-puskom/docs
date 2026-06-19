@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/docs/__docusaurus/debug',
+    component: ComponentCreator('/docs/__docusaurus/debug', 'e58'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/config',
+    component: ComponentCreator('/docs/__docusaurus/debug/config', '2ce'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/content',
+    component: ComponentCreator('/docs/__docusaurus/debug/content', '11b'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/globalData',
+    component: ComponentCreator('/docs/__docusaurus/debug/globalData', 'f13'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/metadata',
+    component: ComponentCreator('/docs/__docusaurus/debug/metadata', 'bff'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/registry',
+    component: ComponentCreator('/docs/__docusaurus/debug/registry', '830'),
+    exact: true
+  },
+  {
+    path: '/docs/__docusaurus/debug/routes',
+    component: ComponentCreator('/docs/__docusaurus/debug/routes', '13e'),
+    exact: true
+  },
+  {
     path: '/docs/blog',
     component: ComponentCreator('/docs/blog', 'eb0'),
     exact: true
@@ -84,15 +119,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '235'),
+    component: ComponentCreator('/docs/docs', 'e40'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '641'),
+        component: ComponentCreator('/docs/docs', 'cb1'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', 'ba1'),
+            component: ComponentCreator('/docs/docs', 'fd1'),
             routes: [
               {
                 path: '/docs/docs/category/standar-operasional-labor',
@@ -125,14 +160,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/docs/tutorial-instalasi/instalasi_vscode_1',
-                component: ComponentCreator('/docs/docs/tutorial-instalasi/instalasi_vscode_1', '2ef'),
+                path: '/docs/docs/tutorial-instalasi/instalasi_flutter',
+                component: ComponentCreator('/docs/docs/tutorial-instalasi/instalasi_flutter', '80b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/docs/tutorial-instalasi/instalasi_xampp_2',
-                component: ComponentCreator('/docs/docs/tutorial-instalasi/instalasi_xampp_2', 'ed2'),
+                path: '/docs/docs/tutorial-instalasi/instalasi_vscode',
+                component: ComponentCreator('/docs/docs/tutorial-instalasi/instalasi_vscode', '2e5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/docs/tutorial-instalasi/instalasi_xampp',
+                component: ComponentCreator('/docs/docs/tutorial-instalasi/instalasi_xampp', '253'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

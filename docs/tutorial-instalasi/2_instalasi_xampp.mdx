@@ -1,0 +1,49 @@
+---
+sidebar_position: 2
+---
+
+# Instalasi XAMPP
+
+XAMPP merupakan paket perangkat lunak *all-in-one* yang di dalamnya sudah tersedia **Apache** (*web server*), **MySQL/MariaDB** (*database*), serta **PHP**. Perangkat lunak ini menjadi *environment* wajib yang digunakan dalam kegiatan praktikum pembuatan *web backend* maupun pengelolaan basis data relasional tingkat dasar di laboratorium.
+
+Di bawah ini adalah panduan lengkap untuk mengunduh, memasang, dan melakukan pengaturan awal XAMPP.
+
+## Tahap 1: Unduh dan Instalasi
+
+1. Akses halaman resmi Apache Friends melalui **[apachefriends.org](https://www.apachefriends.org/)**.
+2. Tekan tombol **XAMPP for Windows** untuk mengunduh rilis terbaru (sesuaikan versi PHP-nya dengan kebutuhan silabus praktikum yang sedang berjalan).
+3. Buka *file installer* yang sudah selesai diunduh.
+   > **Catatan:** Apabila muncul notifikasi *User Account Control* (UAC) yang berkaitan dengan izin pemasangan di folder `C:\Program Files`, cukup klik **OK** untuk melanjutkan. XAMPP akan dipasang di lokasi yang berbeda dari folder tersebut.
+4. Ketika jendela *Welcome to the XAMPP Setup Wizard* tampil, klik **Next**.
+5. Di halaman **Select Components**, pastikan setidaknya komponen-komponen berikut dalam keadaan tercentang:
+   - **Server:** Apache, MySQL
+   - **Program Languages:** PHP, phpMyAdmin
+   - *(Komponen tambahan seperti FileZilla, Mercury, dan Tomcat boleh dilewati apabila tidak tercantum dalam modul praktikum).*
+6. Tekan **Next**. Di halaman **Installation folder**, biarkan lokasi pemasangan tetap pada pengaturan *default*, yaitu `C:\xampp`.
+7. Tekan **Next** secara berturut-turut sampai proses instalasi dimulai. Tunggu hingga proses selesai, kemudian klik **Finish** (pastikan opsi "Do you want to start the Control Panel now?" dalam kondisi tercentang).
+
+## Tahap 2: Menjalankan dan Menguji XAMPP
+
+Setelah proses pemasangan rampung, Anda perlu mengecek apakah layanan-layanannya dapat berfungsi dengan semestinya.
+
+1. Jalankan aplikasi **XAMPP Control Panel**.
+2. Di baris **Apache**, tekan tombol **Start**. Ulangi langkah yang sama untuk baris **MySQL**.
+3. Apabila kedua layanan berhasil aktif, label "Apache" dan "MySQL" akan berubah menjadi **berwarna hijau**. Nomor *port* yang digunakan juga akan ditampilkan (umumnya Apache berjalan di *port* 80/443, sedangkan MySQL di *port* 3306).
+4. Untuk memverifikasi bahwa *server* lokal sudah berjalan:
+   - Buka *browser* pilihan Anda (Google Chrome/Firefox).
+   - Masukkan alamat `http://localhost` di *address bar* lalu tekan Enter. Jika halaman *dashboard* XAMPP berhasil tampil, berarti pemasangan sudah berhasil.
+   - Coba juga akses `http://localhost/phpmyadmin` untuk memastikan antarmuka pengelolaan *database* dapat dibuka dengan normal.
+
+## Tahap 3: Troubleshooting Umum
+
+Tidak jarang ditemui kendala ketika Apache atau MySQL gagal dijalankan (biasanya ditandai dengan label berwarna merah atau pesan *error* pada *log* di Control Panel). Berikut beberapa solusi yang bisa dicoba:
+
+* **Apache Error (Port 80 In Use):** Masalah ini umumnya muncul ketika ada aplikasi lain (misalnya Skype, VMware, atau layanan Windows IIS) yang sudah lebih dulu memakai *port* 80.
+  - **Solusi:** Tekan tombol **Config** pada baris Apache, lalu pilih `httpd.conf`. Temukan baris bertuliskan `Listen 80` dan ganti menjadi `Listen 8080`. Simpan perubahan pada *file* tersebut, kemudian klik **Start** lagi. (Saat membuka di *browser*, gunakan alamat `http://localhost:8080`).
+* **MySQL Error:** Permasalahan ini biasanya disebabkan oleh adanya instalasi MySQL versi lama yang saling bertabrakan. Pastikan *service* MySQL yang lama sudah dihentikan melalui `services.msc` di Windows.
+
+---
+
+> **Aturan Pengerjaan Tugas Praktikum:**
+> Semua *file* proyek web (PHP/HTML) wajib ditempatkan di dalam folder `C:\xampp\htdocs`. Buat folder tersendiri di dalam `htdocs` dengan format penamaan **nama_nobp_kelas** sesuai ketentuan SOP.
+> Setelah praktikum usai, **jangan lupa** untuk mengompres folder tersebut ke dalam format `.rar` dan memindahkannya ke partisi Mahasiswa agar bisa di-*upload* ke *server* lab.

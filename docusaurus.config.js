@@ -74,7 +74,6 @@ const config = {
     ],
   ],
 
-  // ==== PENAMBAHAN KONFIGURASI LOCAL SEARCH DIMULAI DI SINI ====
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),

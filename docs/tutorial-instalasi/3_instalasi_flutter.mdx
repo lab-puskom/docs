@@ -1,0 +1,280 @@
+---
+sidebar_position: 3
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Instalasi Flutter
+
+Flutter adalah *framework* buatan **Google** yang memungkinkan kita membuat aplikasi untuk **Android, iOS, Web, dan Desktop** hanya dengan satu basis kode menggunakan bahasa pemrograman **Dart**. Flutter banyak digunakan di dunia industri karena efisiensinya dalam pengembangan aplikasi lintas platform (*cross-platform*).
+
+Panduan ini akan membantu Anda menginstal Flutter di **Windows**, **macOS**, maupun **Linux** secara lengkap dan mudah diikuti.
+
+:::info 
+Sebelum Mulai
+Pastikan komputer Anda memiliki koneksi internet yang stabil dan ruang penyimpanan minimal **2 GB** tersedia untuk Flutter SDK beserta komponen pendukungnya.
+:::
+
+---
+
+## Tahap 1: Mengunduh dan Memasang Flutter SDK
+
+Pilih tab di bawah ini sesuai dengan sistem operasi yang Anda gunakan.
+
+<Tabs>
+<TabItem value="windows" label="🪟 Windows" default>
+
+### A. Mengunduh Flutter SDK
+
+1. Buka situs resmi Flutter di **[flutter.dev/get-started/install/windows](https://docs.flutter.dev/get-started/install/windows)**.
+2. Klik tombol **Download Flutter SDK** untuk mengunduh *file* `.zip` versi stabil (*stable*) terbaru.
+3. Buat folder baru di drive `C:\` dengan nama `src`, sehingga Anda memiliki jalur `C:\src`.
+4. **Ekstrak** *file* `.zip` yang sudah diunduh ke dalam folder tersebut. Setelah selesai, Anda akan memiliki folder:
+   ```
+   C:\src\flutter
+   ```
+
+:::warning Perhatian
+Jangan mengekstrak Flutter ke dalam folder yang membutuhkan hak akses Administrator, seperti `C:\Program Files\`. Hal ini dapat menyebabkan masalah perizinan saat menjalankan perintah Flutter.
+:::
+
+### B. Mendaftarkan Path Environment
+
+Agar perintah `flutter` bisa dikenali di **Command Prompt** atau **PowerShell**, Anda perlu mendaftarkan jalurnya ke sistem Windows.
+
+1. Klik tombol **Start** Windows, ketik `env`, lalu pilih **"Edit the system environment variables"**.
+2. Klik tombol **Environment Variables...** di bagian bawah jendela.
+3. Pada bagian **User variables**, cari variabel bernama **Path**, lalu klik dua kali (*double-click*).
+4. Klik tombol **New**, lalu ketikkan:
+   ```
+   C:\src\flutter\bin
+   ```
+5. Klik **OK** pada semua jendela yang terbuka untuk menyimpan pengaturan.
+
+### C. Memverifikasi Instalasi
+
+1. Tutup semua jendela Command Prompt / PowerShell yang sedang terbuka.
+2. Buka **Command Prompt baru** (ketik `cmd` di Start Menu).
+3. Ketik perintah berikut untuk memastikan Flutter sudah terpasang:
+   ```bash
+   flutter --version
+   ```
+4. Jika instalasi berhasil, Anda akan melihat informasi versi Flutter dan Dart yang terpasang.
+
+</TabItem>
+<TabItem value="macos" label="🍎 macOS">
+
+### A. Mengunduh Flutter SDK
+
+1. Buka situs resmi Flutter di **[flutter.dev/get-started/install/macos](https://docs.flutter.dev/get-started/install/macos)**.
+2. Unduh *file* `.zip` yang sesuai dengan **tipe prosesor** Mac Anda:
+   - **Apple Silicon** — untuk Mac dengan chip M1, M2, M3, atau M4.
+   - **Intel** — untuk Mac dengan prosesor Intel.
+
+:::tip Cara Mengecek Tipe Prosesor
+Klik ikon  (Apple) di pojok kiri atas layar → pilih **About This Mac**. Lihat pada baris **Chip** atau **Processor**.
+:::
+
+3. Buka aplikasi **Terminal** (bisa dicari melalui Spotlight dengan menekan `Cmd + Space`).
+4. Buat folder `development` di direktori *Home* Anda, lalu ekstrak Flutter ke dalamnya:
+   ```bash
+   mkdir ~/development
+   cd ~/development
+   unzip ~/Downloads/flutter_macos_*.zip
+   ```
+
+### B. Mendaftarkan Path Environment
+
+Agar terminal macOS mengenali perintah `flutter` secara permanen, tambahkan jalurnya ke konfigurasi *shell* Anda.
+
+1. Buka *file* konfigurasi ZSH:
+   ```bash
+   nano ~/.zshrc
+   ```
+2. Tambahkan baris berikut di **bagian paling bawah** *file*:
+   ```bash
+   export PATH="$PATH:$HOME/development/flutter/bin"
+   ```
+3. Simpan *file* dengan menekan **Ctrl + O** (lalu tekan **Enter**), dan keluar dari editor dengan **Ctrl + X**.
+4. Muat ulang konfigurasi terminal:
+   ```bash
+   source ~/.zshrc
+   ```
+
+### C. Memverifikasi Instalasi
+
+Ketik perintah berikut di Terminal:
+```bash
+flutter --version
+```
+Jika muncul informasi versi Flutter dan Dart, maka instalasi berhasil.
+
+</TabItem>
+<TabItem value="linux" label="🐧 Linux (Ubuntu/Debian)">
+
+### A. Mengunduh Flutter SDK
+
+1. Buka **Terminal** (`Ctrl + Alt + T`).
+2. Unduh Flutter SDK versi stabil terbaru menggunakan perintah berikut:
+   ```bash
+   wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.32.4-stable.tar.xz
+   ```
+   > **Tips:** Kunjungi halaman [flutter.dev/get-started/install/linux](https://docs.flutter.dev/get-started/install/linux) untuk mendapatkan tautan unduhan versi paling baru.
+
+3. Buat folder `development` dan ekstrak *file* yang sudah diunduh ke dalamnya:
+   ```bash
+   mkdir ~/development
+   tar xf flutter_linux_*.tar.xz -C ~/development/
+   ```
+
+### B. Mendaftarkan Path Environment
+
+Sama seperti macOS, kita perlu menambahkan *path* Flutter ke konfigurasi *shell* Linux (biasanya **Bash**).
+
+1. Buka *file* konfigurasi Bash:
+   ```bash
+   nano ~/.bashrc
+   ```
+2. Tambahkan baris berikut di **bagian paling bawah** *file*:
+   ```bash
+   export PATH="$PATH:$HOME/development/flutter/bin"
+   ```
+3. Simpan dengan **Ctrl + O** (lalu **Enter**), dan keluar dengan **Ctrl + X**.
+4. Terapkan perubahan:
+   ```bash
+   source ~/.bashrc
+   ```
+
+:::info Menggunakan ZSH?
+Jika Anda menggunakan ZSH sebagai *shell* default (bukan Bash), ubah langkah di atas dengan mengedit *file* `~/.zshrc` alih-alih `~/.bashrc`.
+:::
+
+### C. Memverifikasi Instalasi
+
+Ketik perintah berikut di Terminal:
+```bash
+flutter --version
+```
+Jika muncul informasi versi Flutter dan Dart, maka instalasi berhasil.
+
+</TabItem>
+</Tabs>
+
+---
+
+## Tahap 2: Menjalankan Flutter Doctor
+
+Setelah Flutter SDK terpasang, langkah selanjutnya adalah memeriksa apakah semua komponen pendukung sudah lengkap. Flutter menyediakan alat bawaan yang sangat berguna bernama **Flutter Doctor**.
+
+1. Buka **Terminal** atau **Command Prompt** baru.
+2. Jalankan perintah berikut:
+   ```bash
+   flutter doctor
+   ```
+3. Flutter Doctor akan menampilkan laporan berupa:
+   - ✅ **Tanda centang hijau** `[✓]` — komponen sudah siap dan terpasang.
+   - ❌ **Tanda silang merah** `[✗]` — komponen masih kurang dan perlu diinstal.
+   - ⚠️ **Tanda seru kuning** `[!]` — komponen tersedia tetapi ada peringatan.
+
+Ikuti petunjuk yang diberikan oleh Flutter Doctor untuk melengkapi komponen yang masih kurang.
+
+---
+
+## Tahap 3: Menginstal Android Studio
+
+Walaupun Anda menulis kode di **Visual Studio Code**, Anda tetap **wajib menginstal Android Studio** untuk mendapatkan **Android SDK** dan **Android Emulator** yang dibutuhkan Flutter.
+
+1. Unduh Android Studio dari **[developer.android.com/studio](https://developer.android.com/studio)**.
+2. Lakukan instalasi standar (klik **Next** terus hingga selesai).
+3. Buka Android Studio setelah instalasi selesai.
+4. Masuk ke menu **More Actions** → **SDK Manager**.
+5. Pada tab **SDK Tools**, pastikan komponen berikut sudah tercentang dan terinstal:
+   - **Android SDK Command-line Tools (latest)**
+   - **Android SDK Build-Tools**
+   - **Android Emulator**
+6. Klik **Apply** dan tunggu proses unduhan selesai.
+
+### Menyetujui Lisensi Android
+
+Setelah Android Studio terpasang, kembali ke Terminal/Command Prompt dan jalankan perintah ini untuk menyetujui semua lisensi yang diperlukan:
+
+```bash
+flutter doctor --android-licenses
+```
+
+Ketik **`y`** (yes) dan tekan **Enter** pada setiap pertanyaan lisensi yang muncul.
+
+:::tip
+Setelah menjalankan perintah di atas, jalankan kembali `flutter doctor` untuk memastikan semua komponen Android sudah berstatus hijau `[✓]`.
+:::
+
+---
+
+## Tahap 4: Menyiapkan Visual Studio Code untuk Flutter
+
+Sebagai langkah terakhir, siapkan *editor* kode Anda agar siap digunakan untuk pengembangan Flutter.
+
+1. Buka aplikasi **Visual Studio Code**.
+2. Masuk ke menu **Extensions** (ikon kotak-kotak di panel kiri, atau tekan `Ctrl + Shift + X`).
+3. Cari dan pasang ekstensi berikut:
+
+| Ekstensi | Pembuat | Keterangan |
+|---|---|---|
+| **Flutter** | Dart Code | Ekstensi utama untuk pengembangan Flutter. Instalasi ini akan **otomatis** menginstal ekstensi **Dart** juga. |
+| **Dart** | Dart Code | Dukungan bahasa Dart (biasanya sudah terpasang otomatis bersama ekstensi Flutter). |
+
+4. Setelah ekstensi terpasang, **restart** Visual Studio Code.
+
+---
+
+## Tahap 5: Membuat Proyek Flutter Pertama (Uji Coba)
+
+Untuk memastikan seluruh instalasi berjalan dengan benar, mari kita buat proyek Flutter sederhana.
+
+1. Buka **Terminal** atau **Command Prompt**.
+2. Pindah ke direktori tempat Anda ingin menyimpan proyek (contoh: Desktop):
+   ```bash
+   cd ~/Desktop
+   ```
+3. Buat proyek Flutter baru dengan perintah:
+   ```bash
+   flutter create aplikasi_pertama
+   ```
+4. Masuk ke folder proyek:
+   ```bash
+   cd aplikasi_pertama
+   ```
+5. Jalankan aplikasi di *emulator* atau *browser*:
+   ```bash
+   flutter run
+   ```
+
+:::info Menjalankan di Browser
+Jika Anda belum menyiapkan emulator Android, Anda bisa menjalankan aplikasi Flutter di *browser* dengan perintah:
+```bash
+flutter run -d chrome
+```
+Pastikan Google Chrome sudah terpasang di komputer Anda.
+:::
+
+Jika Anda melihat aplikasi demo Flutter muncul dengan tampilan *counter app* (aplikasi penghitung), selamat — **instalasi Flutter Anda berhasil!** 🎉
+
+---
+
+## Troubleshooting Umum
+
+Berikut adalah beberapa masalah yang sering ditemui saat proses instalasi:
+
+| Masalah | Penyebab | Solusi |
+|---|---|---|
+| Perintah `flutter` tidak dikenali | *Path environment* belum terdaftar atau terminal belum di-*restart* | Ulangi langkah pendaftaran Path, lalu **tutup dan buka ulang** terminal Anda |
+| `flutter doctor` menunjukkan Android toolchain ✗ | Android SDK belum terpasang | Instal Android Studio dan jalankan `flutter doctor --android-licenses` |
+| Emulator tidak muncul | Android Emulator belum diinstal atau AVD belum dibuat | Buka Android Studio → **Virtual Device Manager** → buat AVD baru |
+| *Download* Flutter sangat lambat | Koneksi internet tidak stabil | Gunakan jaringan yang lebih stabil atau unduh melalui *mirror* resmi Flutter |
+| Error `Unable to find git` (Windows) | Git belum terpasang | Unduh dan instal Git dari [git-scm.com](https://git-scm.com/) |
+
+---
+
+> **Catatan untuk Asisten Laboratorium:**
+> Pastikan Flutter SDK, Android Studio, dan ekstensi VS Code sudah terpasang dengan benar di seluruh komputer lab **sebelum minggu pertama praktikum**. Jalankan `flutter doctor` di setiap komputer dan pastikan semua komponen berstatus `[✓]`. Jika ada komputer yang mengalami kendala, segera laporkan ke koordinator lab.

@@ -26,13 +26,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-instalasi/instalasi_vscode_1",
-              "path": "/docs/docs/tutorial-instalasi/instalasi_vscode_1",
+              "id": "tutorial-instalasi/instalasi_flutter",
+              "path": "/docs/docs/tutorial-instalasi/instalasi_flutter",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-instalasi/instalasi_xampp_2",
-              "path": "/docs/docs/tutorial-instalasi/instalasi_xampp_2",
+              "id": "tutorial-instalasi/instalasi_vscode",
+              "path": "/docs/docs/tutorial-instalasi/instalasi_vscode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-instalasi/instalasi_xampp",
+              "path": "/docs/docs/tutorial-instalasi/instalasi_xampp",
               "sidebar": "tutorialSidebar"
             },
             {
