@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklab_docs=self.webpackChunklab_docs||[]).push([["1833"],{5513(a){a.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Selamat Datang di Portal Laboratorium!","permalink":"/docs/blog/selamat-datang","unlisted":false,"date":"2026-06-26T00:00:00.000Z"}]}')}}]);

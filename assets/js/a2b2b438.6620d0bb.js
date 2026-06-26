@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklab_docs=self.webpackChunklab_docs||[]).push([["962"],{7888(l){l.exports=JSON.parse('{"tags":[{"label":"pengumuman","permalink":"/docs/blog/tags/pengumuman","count":1},{"label":"lab","permalink":"/docs/blog/tags/lab","count":1},{"label":"rilis","permalink":"/docs/blog/tags/rilis","count":1}]}')}}]);
