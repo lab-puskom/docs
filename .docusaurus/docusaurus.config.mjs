@@ -53,6 +53,7 @@ export default {
         },
         "blog": {
           "showReadingTime": true,
+          "authorsBasePath": "team",
           "feedOptions": {
             "type": [
               "rss",
@@ -73,7 +74,7 @@ export default {
   ],
   "themes": [
     [
-      "/home/mayen/Dev/lab-docs/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
+      "C:\\Users\\pc\\DEv\\docs\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
       {
         "hashed": true,
         "language": [
@@ -111,6 +112,11 @@ export default {
           "position": "left"
         },
         {
+          "to": "/blog/team",
+          "label": "Team",
+          "position": "left"
+        },
+        {
           "href": "https://github.com/lab-puskom/docs",
           "label": "GitHub",
           "position": "right"
@@ -127,23 +133,14 @@ export default {
             {
               "label": "Tutorial",
               "to": "docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "Blog",
+              "to": "/blog"
             },
             {
-              "label": "X",
-              "href": "https://x.com/docusaurus"
+              "label": "Team",
+              "to": "/blog/team"
             }
           ]
         },
@@ -161,7 +158,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2026 UPT Pusat Laboratorium Komputer."
+      "copyright": "Copyright © 2026 Team Laboratorium Komputer."
     },
     "prism": {
       "theme": {

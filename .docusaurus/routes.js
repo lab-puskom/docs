@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/docs/blog',
-    component: ComponentCreator('/docs/blog', 'eb0'),
+    component: ComponentCreator('/docs/blog', 'd62'),
     exact: true
   },
   {
@@ -48,33 +48,8 @@ export default [
     exact: true
   },
   {
-    path: '/docs/blog/authors',
-    component: ComponentCreator('/docs/blog/authors', '164'),
-    exact: true
-  },
-  {
-    path: '/docs/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/docs/blog/authors/all-sebastien-lorber-articles', '049'),
-    exact: true
-  },
-  {
-    path: '/docs/blog/authors/yangshun',
-    component: ComponentCreator('/docs/blog/authors/yangshun', 'fff'),
-    exact: true
-  },
-  {
-    path: '/docs/blog/first-blog-post',
-    component: ComponentCreator('/docs/blog/first-blog-post', 'f6e'),
-    exact: true
-  },
-  {
-    path: '/docs/blog/long-blog-post',
-    component: ComponentCreator('/docs/blog/long-blog-post', '221'),
-    exact: true
-  },
-  {
-    path: '/docs/blog/mdx-blog-post',
-    component: ComponentCreator('/docs/blog/mdx-blog-post', '369'),
+    path: '/docs/blog/selamat-datang',
+    component: ComponentCreator('/docs/blog/selamat-datang', 'ee6'),
     exact: true
   },
   {
@@ -83,28 +58,28 @@ export default [
     exact: true
   },
   {
-    path: '/docs/blog/tags/docusaurus',
-    component: ComponentCreator('/docs/blog/tags/docusaurus', 'fab'),
+    path: '/docs/blog/tags/lab',
+    component: ComponentCreator('/docs/blog/tags/lab', 'd45'),
     exact: true
   },
   {
-    path: '/docs/blog/tags/facebook',
-    component: ComponentCreator('/docs/blog/tags/facebook', 'a63'),
+    path: '/docs/blog/tags/pengumuman',
+    component: ComponentCreator('/docs/blog/tags/pengumuman', 'b70'),
     exact: true
   },
   {
-    path: '/docs/blog/tags/hello',
-    component: ComponentCreator('/docs/blog/tags/hello', '685'),
+    path: '/docs/blog/tags/rilis',
+    component: ComponentCreator('/docs/blog/tags/rilis', '11f'),
     exact: true
   },
   {
-    path: '/docs/blog/tags/hola',
-    component: ComponentCreator('/docs/blog/tags/hola', '7ae'),
+    path: '/docs/blog/team',
+    component: ComponentCreator('/docs/blog/team', '299'),
     exact: true
   },
   {
-    path: '/docs/blog/welcome',
-    component: ComponentCreator('/docs/blog/welcome', '825'),
+    path: '/docs/blog/team/mayendra',
+    component: ComponentCreator('/docs/blog/team/mayendra', 'adb'),
     exact: true
   },
   {

@@ -54,6 +54,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          authorsBasePath: 'team',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -87,7 +88,7 @@ const config = {
       }),
     ],
   ],
-  // ==== PENAMBAHAN SELESAI ====
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -112,6 +113,11 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            to: '/blog/team', 
+            label: 'Team', 
+            position: 'left'
+          },
+          {
             href: 'https://github.com/lab-puskom/docs',
             label: 'GitHub',
             position: 'right',
@@ -128,9 +134,17 @@ const config = {
                 label: 'Tutorial',
                 to: 'docs/intro',
               },
+              {
+                label: 'Blog',
+                to:'/blog'
+              },
+              {
+                label: 'Team',
+                to:'/blog/team'
+              },
             ],
           },
-          {
+          /*{
             title: 'Community',
             items: [
               {
@@ -146,7 +160,7 @@ const config = {
                 href: 'https://x.com/docusaurus',
               },
             ],
-          },
+          },*/
           {
             title: 'More',
             items: [
@@ -161,7 +175,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} UPT Pusat Laboratorium Komputer.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Team Laboratorium Komputer.`,
       },
       prism: {
         theme: prismThemes.github,

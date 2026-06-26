@@ -48,3 +48,15 @@
     transform: translateX(-50%);
   }
 }
+.blog-authors-list-page h1 {
+  visibility: hidden;
+  position: relative;
+}
+
+.blog-authors-list-page h1::after {
+  content: "Team";
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
