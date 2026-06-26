@@ -66,7 +66,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---docs-blog-authorsace-19b"
+        "blogMetadata": "blogMetadata---docs-blog-selamat-datangace-5d6"
       },
       "plugin": "plugin---docs-blog-369-9db"
     },
@@ -124,18 +124,30 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---docs-blog-authorsace-19b"
+        "blogMetadata": "blogMetadata---docs-blog-selamat-datangace-5d6"
       },
       "plugin": "plugin---docs-blog-369-9db"
     },
     "sidebar": "sidebar---docs-blog-814-2a0",
     "__props": "__props---docs-blog-team-500-ebe"
   },
+  "/docs/blog/team/hanatasya-79c": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---docs-blog-selamat-datangace-5d6"
+      },
+      "plugin": "plugin---docs-blog-369-9db"
+    },
+    "items": [],
+    "sidebar": "sidebar---docs-blog-814-2a0",
+    "__props": "__props---docs-blog-team-hanatasya-97-a-5eb"
+  },
   "/docs/blog/team/mayendra-adb": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---docs-blog-authorsace-19b"
+        "blogMetadata": "blogMetadata---docs-blog-selamat-datangace-5d6"
       },
       "plugin": "plugin---docs-blog-369-9db"
     },

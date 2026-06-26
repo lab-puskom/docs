@@ -1,7 +1,7 @@
 mayendra:
   name: Mayendra Dwika Prayudha
   title: Asisten Labor A'25
-  image_url: https://github.com/mayendradwika.png
+  image_url: /img/mayen.jpg
   page: true
   description: |
     Halo! Saya Mayendra Dwika Prayudha, salah satu tim asisten yang bertanggung jawab dalam pengelolaan portal informasi dan penyusunan modul praktikum teknis di Laboratorium Komputer.
@@ -9,3 +9,15 @@ mayendra:
     github: https://github.com/mayendradwika
     linkedin: https://www.linkedin.com/in/mayendradwika           
     email: mayendradwikaprayudha@gmail.com
+
+hanatasya:
+  name: Hana Tasya
+  title: Asisten Labor A'25
+  image_url: /img/hana_tasya.jpeg
+  page: true
+  description: |
+    Halo! Saya Hana Tasya, salah satu tim asisten yang bertanggung jawab dalam pengelolaan portal informasi dan penyusunan modul praktikum teknis di Laboratorium Komputer.
+  socials:
+    instagram: hana_tasyaaaa
+    linkedin: https://www.linkedin.com/in/hana-tasya-a374b93a7
+  

@@ -78,6 +78,11 @@ export default [
     exact: true
   },
   {
+    path: '/docs/blog/team/hanatasya',
+    component: ComponentCreator('/docs/blog/team/hanatasya', '79c'),
+    exact: true
+  },
+  {
     path: '/docs/blog/team/mayendra',
     component: ComponentCreator('/docs/blog/team/mayendra', 'adb'),
     exact: true
